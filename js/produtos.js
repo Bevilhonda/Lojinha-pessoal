@@ -1,4 +1,3 @@
-
 async function carregarProdutos(){
 
     const params =
@@ -8,7 +7,9 @@ async function carregarProdutos(){
         params.get("categoria");
 
     const resposta =
-        await fetch("./data/produtos.json");
+        await fetch(
+            `./data/categorias/${categoria}.json`
+        );
 
     const produtos =
         await resposta.json();
@@ -20,14 +21,9 @@ async function carregarProdutos(){
         document.getElementById("titulo-categoria");
 
     titulo.innerText =
-        categoria.toUpperCase();
+        categoria.replace("-", " ");
 
-    const filtrados =
-        produtos.filter(produto =>
-            produto.categoria === categoria
-        );
-
-    filtrados.forEach(produto => {
+    produtos.forEach(produto => {
 
         const card =
             document.createElement("div");
@@ -35,10 +31,19 @@ async function carregarProdutos(){
         card.classList.add("produto-card");
 
         card.innerHTML = `
-            <img src="${produto.imagem}" alt="">
+            <img src="${produto.imagem}"
+                 alt="${produto.nome}">
+
             <h3>${produto.nome}</h3>
-            <p>R$ ${produto.preco.toFixed(2)}</p>
-            <button>Adicionar</button>
+
+            <p>
+                R$
+                ${produto.preco.toFixed(2)}
+            </p>
+
+            <button>
+                Adicionar
+            </button>
         `;
 
         container.appendChild(card);
