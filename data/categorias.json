@@ -32,19 +32,12 @@
     
     {
         "id": 6,
-        "nome": "Dia das Crianças" ,
-        "slug": "criancas"
-    },
-    
-    {
-        "id": 7,
         "nome": "Presentes Natal " ,
         "slug": "natal"
     },
     
-
     {
-        "id": 8,
+        "id": 7,
         "nome": "Páscoa" ,
         "slug": "pascoa"
     }
