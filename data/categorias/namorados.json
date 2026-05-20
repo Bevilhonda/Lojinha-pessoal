@@ -1,0 +1,32 @@
+[
+  {
+        "id": 1,
+        "nome": "Kit 1  Dia dos Namorados",
+        "preco": 159.90,
+        "categoria": "namorados",
+        "imagem": "./imagens/produto5.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Kit 2 Dia dos Namorados",
+      "preco": 159.90,
+      "categoria": "namorados",
+      "imagem": "./imagens/produto5.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Kit 3 Dia dos Namorados",
+      "preco": 159.90,
+      "categoria": "namorados",
+      "imagem": "./imagens/produto5.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Kit 4 Dia dos Namorados",
+      "preco": 159.90,
+      "categoria": "namorados",
+      "imagem": "./imagens/produto5.jpg"
+    }
+  
+
+]

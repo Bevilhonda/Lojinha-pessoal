@@ -1,0 +1,23 @@
+[
+  {
+        "id": 1,
+        "nome": "Kit 1 Páscoa Delícia",
+        "preco": 119.90,
+        "categoria": "pascoa",
+        "imagem": "./imagens/produto8.jpg"
+    },
+    {
+        "id": 2,
+        "nome": "Kit 2 Páscoa Delícia",
+        "preco": 129.90,
+        "categoria": "pascoa",
+        "imagem": "./imagens/produto8.jpg"
+    },
+    {
+        "id": 3,
+        "nome": "Kit 3 Páscoa Delícia",
+        "preco": 139.90,
+        "categoria": "pascoa",
+        "imagem": "./imagens/produto8.jpg"
+    }
+]

@@ -1,0 +1,31 @@
+[
+  {
+        "id": 1,
+        "nome": "Kit Especial Papai",
+        "preco": 179.90,
+        "categoria": "papai",
+        "imagem": "./imagens/produto3.jpg"
+    },
+    {
+        "id": 2,
+        "nome": "Kit Especial Papai",
+        "preco": 179.90,
+        "categoria": "papai",
+        "imagem": "./imagens/produto3.jpg"
+    },
+    {
+        "id": 3,
+        "nome": "Fragância Papai Moderno",
+        "preco": 179.90,
+        "categoria": "papai",
+        "imagem": "./imagens/produto3.jpg"
+    },
+    {
+        "id": 4,
+        "nome": "Perfume Papai Esportivo",
+        "preco": 179.90,
+        "categoria": "papai",
+        "imagem": "./imagens/produto3.jpg"
+    }
+
+]

@@ -1,0 +1,37 @@
+[
+  {
+        "id": 1,
+        "nome": "Kit Elegance Mamãe",
+        "preco": 149.90,
+        "categoria": "mamae",
+        "imagem": "./imagens/produto1.jpg"
+    },
+    {
+        "id": 2,
+        "nome": "Perfume Importado Feminino",
+        "preco": 199.90,
+        "categoria": "mamae",
+        "imagem": "./imagens/produto2.jpg"
+    },
+    {
+        "id": 10,
+        "nome": "Kit Relaxamento Mamãe",
+        "preco": 129.90,
+        "categoria": "mamae",
+        "imagem": "./imagens/produto10.jpg"
+    },
+    {
+        "id": 11,
+        "nome": "Kit Cuidado Pessoal Mamãe",
+        "preco": 159.90,
+        "categoria": "mamae",
+        "imagem": "./imagens/produto11.jpg"
+    },
+    {
+        "id": 12,
+        "nome": "Kit Beleza Natural Mamãe",
+        "preco": 179.90,
+        "categoria": "mamae",
+        "imagem": "./imagens/produto12.jpg"
+    }
+]
