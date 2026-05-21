@@ -28,5 +28,36 @@ async function carregarCategorias(){
     });
 
 }
+function atualizarContadorCarrinho(){
+
+    const carrinho =
+        JSON.parse(
+            localStorage.getItem(
+                "carrinho"
+            )
+        ) || [];
+
+    const totalItens =
+        carrinho.reduce(
+            (total, item) =>
+                total + item.quantidade,
+            0
+        );
+
+    const contador =
+        document.getElementById(
+            "contador-carrinho"
+        );
+
+    if(contador){
+
+        contador.innerText =
+            `Carrinho (${totalItens})`;
+
+    }
+
+}
+
+atualizarContadorCarrinho();
 
 carregarCategorias();
