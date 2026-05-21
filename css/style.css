@@ -110,7 +110,8 @@ body{
 .categorias-container{
     display: grid;
 
-    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    grid-template-columns:
+    repeat(auto-fit, minmax(320px, 1fr));
 
     gap: 30px;
 
@@ -186,7 +187,7 @@ body{
     display: grid;
 
     grid-template-columns:
-    repeat(auto-fill, minmax(350px, 1fr));
+    repeat(auto-fit, minmax(320px, 1fr));
 
     gap: 30px;
 }
@@ -465,11 +466,12 @@ body{
     }
 
     .item-carrinho{
-        flex-direction: column;
-        text-align: center;
-        gap: 15px;
-        padding: 20px;
-    }
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    padding: 20px;
+    width: 100%;
+}
 
     .item-carrinho h3{
         font-size: 24px;
@@ -484,6 +486,14 @@ body{
         height: 50px;
         font-size: 18px;
     }
+    .item-carrinho div{
+    width: 100%;
+}
+
+.item-carrinho button{
+    width: 100%;
+    max-width: 200px;
+}
 
     .carrinho-total{
         text-align: center;
