@@ -144,7 +144,7 @@ function removerItem(index){
 function finalizarCompra(){
 
     const numeroWhatsApp =
-        "5544999451734";
+        "5544"; // aqui vai o numero do celular
 
     const carrinho =
         JSON.parse(
