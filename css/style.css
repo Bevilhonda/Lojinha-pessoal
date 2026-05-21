@@ -354,7 +354,7 @@ body{
         scale(1);
 }
 
-@media(max-width: 768px){
+@media (max-width: 768px){
 
     .header{
         flex-direction: column;
@@ -365,65 +365,6 @@ body{
 
     .logo h1{
         font-size: 32px;
-    }
-
-    .menu{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .menu a{
-        font-size: 20px;
-    }
-
-    .banner-texto h2{
-        font-size: 38px;
-    }
-
-    .banner-texto h2 strong{
-        font-size: 34px;
-    }
-
-    .banner-texto p{
-        font-size: 24px;
-    }
-
-    .banner-texto button{
-        width: 220px;
-        height: 60px;
-        font-size: 28px;
-    }
-
-    .categorias h2{
-        font-size: 32px;
-    }
-
-    .categorias-container{
-        grid-template-columns: 1fr;
-    }
-
-    .categoria-card{
-        min-height: 180px;
-        font-size: 30px;
-    }
-
-    .footer{
-        font-size: 18px;
-        text-align: center;
-        padding: 20px;
-    }
-
-    @media(max-width:768px){
-
-    .header{
-        flex-direction: column;
-        height: auto;
-        padding: 20px;
-        gap: 15px;
-    }
-
-    .logo h1{
-        font-size: 28px;
         text-align: center;
     }
 
@@ -434,7 +375,7 @@ body{
     }
 
     .menu a{
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .banner{
@@ -443,78 +384,104 @@ body{
     }
 
     .banner-texto h2{
-        font-size: 28px;
+        font-size: 34px;
     }
 
     .banner-texto h2 strong{
-        font-size: 28px;
+        font-size: 30px;
     }
 
     .banner-texto p{
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .banner-texto button{
         width: 220px;
-        height: 50px;
-        font-size: 22px;
+        height: 55px;
+        font-size: 24px;
+    }
+
+    .categorias{
+        padding: 30px 20px;
     }
 
     .categorias h2{
-        font-size: 28px;
+        font-size: 30px;
         text-align: center;
+    }
+
+    .categorias-container{
+        grid-template-columns: 1fr;
     }
 
     .categoria-card{
-        height: 140px;
-        font-size: 24px;
+        min-height: 180px;
+        font-size: 28px;
+        padding: 20px;
+    }
+
+    .produtos-page{
+        padding: 30px 20px;
+    }
+
+    .produtos-page h2{
+        font-size: 32px;
         text-align: center;
-        padding: 10px;
+    }
+
+    .produtos-container{
+        grid-template-columns: 1fr;
     }
 
     .produto-card{
-        padding: 15px;
+        padding: 20px;
+    }
+
+    .produto-card img{
+        height: 220px;
     }
 
     .produto-card h3{
-        font-size: 22px;
-        text-align: center;
+        font-size: 24px;
     }
 
     .produto-card p{
-        font-size: 20px;
-        text-align: center;
+        font-size: 22px;
     }
 
     .produto-card button{
         width: 100%;
-        height: 50px;
-        font-size: 18px;
+        height: 55px;
+        font-size: 20px;
+    }
+
+    .carrinho-page{
+        padding: 30px 20px;
     }
 
     .carrinho-page h2{
-        font-size: 30px;
+        font-size: 34px;
         text-align: center;
     }
 
     .item-carrinho{
         flex-direction: column;
-        gap: 20px;
         text-align: center;
+        gap: 15px;
         padding: 20px;
     }
 
     .item-carrinho h3{
-        font-size: 22px;
+        font-size: 24px;
     }
 
     .item-carrinho p{
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .item-carrinho button{
         width: 120px;
-        height: 45px;
+        height: 50px;
         font-size: 18px;
     }
 
@@ -523,14 +490,21 @@ body{
     }
 
     .carrinho-total h3{
-        font-size: 28px;
+        font-size: 34px;
     }
 
     .carrinho-total button{
         width: 100%;
         max-width: 280px;
-        height: 55px;
+        height: 60px;
+        font-size: 22px;
+    }
+
+    .mensagem-carrinho{
+        width: 90%;
+        text-align: center;
         font-size: 20px;
+        padding: 18px;
     }
 
     .footer{
@@ -539,5 +513,4 @@ body{
         font-size: 18px;
         text-align: center;
     }
-}
 }
