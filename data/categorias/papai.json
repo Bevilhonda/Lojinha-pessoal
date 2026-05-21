@@ -1,42 +1,42 @@
 [
   {
         "id": 1,
-        "nome": "Lacqua Afric de Channel - Frangançe woody fragrance",
+        "nome": "Lacqua Afric de Channel - Frangançe woody fragrance - Di Bevilacqua Parfum",
         "preco": 179.90,
         "categoria": "papai",
         "imagem": "./imagens/papai/Lacqua Afric de Channel - Frangançe woody.png"
     },
     {
         "id": 2,
-        "nome": "Bevilacqua For Men",
+        "nome": "Bevilacqua For Men - Di Bevilacqua Parfum",
         "preco": 179.90,
         "categoria": "papai",
         "imagem": "./imagens/papai/Bevilacqua For Men.png"
     },
     {
         "id": 3,
-        "nome": "Lacqua Black",
+        "nome": "Lacqua Black - Di Bevilacqua Parfum",
         "preco": 179.90,
         "categoria": "papai",
         "imagem": "./imagens/papai/Lacqua Black.png"
     },
     {
         "id": 4,
-        "nome": "Lacqua di Sun - For Adventures",
+        "nome": "Lacqua di Sun - For Adventures - Di Bevilacqua Parfum",
         "preco": 179.90,
         "categoria": "papai",
         "imagem": "./imagens/papai/Lacqua di Sun - For Adventures.png"
     },
     {
         "id": 5,
-        "nome": "Lacqua Homme",
+        "nome": "Lacqua Homme - Di Bevilacqua Parfum",
         "preco": 179.90,
         "categoria": "papai",
         "imagem": "./imagens/papai/Lacqua Homme.png"
     },
     {
         "id": 6,
-        "nome": "Lacqua Secret Spirit",
+        "nome": "Lacqua Secret Spirit - Di Bevilacqua Parfum",
         "preco": 179.90,
         "categoria": "papai",
         "imagem": "./imagens/papai/Lacqua Secret Spirit.png"
