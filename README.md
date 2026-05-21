@@ -1,104 +1,81 @@
 # 🎁 Ingá Presentes
 
-> Presentes especiais para pessoas especiais! Kits personalizados, perfumes importados e presentes criados com carinho.
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Presentes especiais para pessoas queridas — frontend estático do catálogo e carrinho.
 
 ---
 
 ## 📋 Sobre o Projeto
 
-**Ingá Presentes** é um e-commerce responsivo especializado em venda de presentes personalizados, kits temáticos e perfumes importados. A plataforma oferece uma experiência de compra intuitiva com catálogo organizado por categorias, carrinho de compras funcional e interface moderna.
+Projeto front-end em HTML/CSS/JS que exibe categorias e produtos a partir de arquivos JSON locais, com carrinho de compras gerenciado no client-side.
 
-### ✨ Funcionalidades Principais
+### Funcionalidades
 
-- ✅ Catálogo de produtos organizado por categorias
-- ✅ Filtro por categorias (Mamãe, Papai, Kits Prontos, etc.)
-- ✅ Carrinho de compras com cálculo automático
-- ✅ Página inicial com banner promocional
-- ✅ Layout responsivo e mobile-friendly
-- ✅ Dados de produtos em JSON (fácil de atualizar)
-- ✅ Interface moderna e intuitiva
+- Catálogo por categorias
+- Listagem de produtos e filtro por categoria
+- Carrinho funcional (adicionar/remover, cálculo simples)
+- Layout responsivo
+- Dados organizados em JSONs dentro da pasta `data/categorias`
 
 ---
 
-## 🗂️ Estrutura do Projeto
+## 🗂️ Estrutura do Projeto (atual)
 
 ```
 Inga Presentes/
-├── index.html              # Página principal
-├── produtos.html           # Página de listagem de produtos
-├── README.md              # Este arquivo
-│
+├── index.html
+├── produtos.html
+├── carrinho.html
+├── README.md
 ├── css/
-│   └── style.css          # Estilos globais da aplicação
-│
+│   └── style.css
 ├── js/
-│   ├── script.js          # Scripts da página inicial (carregamento de categorias)
-│   ├── produtos.js        # Lógica de listagem e filtro de produtos
-│   └── carrinho.js        # Gerenciamento do carrinho de compras
-│
+│   ├── script.js
+│   ├── produtos.js
+│   └── carrinho.js
 ├── data/
-│   ├── categorias.json    # Lista de categorias de produtos
-│   └── produtos.json      # Banco de dados de produtos
-│
-└── imagens/               # Pasta para armazenar imagens dos produtos
+│   ├── categorias.json         # lista de categorias
+│   └── categorias/             # arquivos JSON por categoria (ex.: aniversario.json)
+│       ├── aniversario.json
+│       ├── kits-prontos.json
+│       ├── mamae.json
+│       ├── namorados.json
+│       ├── natal.json
+│       └── papai.json
+└── imagens/                    # imagens dos produtos
 ```
 
 ---
 
-## 🚀 Como Usar
+## 🚀 Como rodar localmente
 
 ### Requisitos
-- Um navegador moderno (Chrome, Firefox, Safari, Edge)
-- Nenhuma dependência externa necessária (projeto vanilla JavaScript)
+- Navegador moderno
+- Servidor HTTP local (recomendado para evitar problemas de CORS)
 
-### Instalação e Execução
+### Opções
 
-1. **Clone ou baixe o projeto**
-   ```bash
-   git clone <seu-repositorio>
-   cd "Inga Presentes"
-   ```
+1) Abrir `index.html` diretamente no navegador (funciona em muitos casos).
 
-2. **Abra no navegador**
-   - Opção 1: Clique duas vezes em `index.html`
-   - Opção 2: Use um servidor local (recomendado)
-     ```bash
-     # Com Python 3
-     python -m http.server 8000
-     
-     # Com Node.js (http-server)
-     npx http-server
-     ```
+2) Rodar um servidor local (recomendado):
 
-3. **Acesse a aplicação**
-   - Navegue em `http://localhost:8000` (ou o endereço exibido)
+```bash
+# Com Python 3
+python -m http.server 8000
+
+# Com Node (http-server)
+npx http-server -p 8000
+```
+
+Abra `http://localhost:8000` no navegador.
 
 ---
 
-## 📁 Estrutura de Dados
+## 📁 Como os dados estão organizados
 
-### `data/categorias.json`
-Define as categorias de produtos disponíveis:
+- `data/categorias.json`: arquivo com a lista de categorias (id, nome, slug).
+- `data/categorias/*.json`: arquivos por categoria com os produtos daquela categoria.
 
-```json
-[
-  {
-    "id": 1,
-    "nome": "Para Mamãe",
-    "slug": "mamae"
-  },
-  {
-    "id": 2,
-    "nome": "Para Papai",
-    "slug": "papai"
-  }
-]
-```
-
-### `data/produtos.json`
-Contém todos os produtos com suas informações:
+Exemplo de um arquivo em `data/categorias/mamae.json`:
 
 ```json
 [
@@ -106,127 +83,60 @@ Contém todos os produtos com suas informações:
     "id": 1,
     "nome": "Kit Elegance Mamãe",
     "preco": 149.90,
-    "categoria": "mamae",
-    "imagem": "./imagens/produto1.jpg"
+    "imagem": "../imagens/produto1.jpg"
   }
 ]
 ```
 
-**Campos obrigatórios:**
-- `id`: Identificador único (número)
-- `nome`: Nome do produto (string)
-- `preco`: Preço em reais (número)
-- `categoria`: Categoria do produto (string, deve corresponder a um slug em categorias.json)
-- `imagem`: Caminho relativo da imagem (string)
+Observações:
+- Cada arquivo de categoria deve conter um array de produtos.
+- Campos comuns: `id`, `nome`, `preco`, `imagem`.
 
 ---
 
-## 🎨 Customização
+## ✍️ Como adicionar/editar conteúdo
 
-### Adicionar Novos Produtos
-
-1. Abra `data/produtos.json`
-2. Adicione um novo objeto ao array:
-   ```json
-   {
-     "id": 5,
-     "nome": "Seu Produto",
-     "preco": 199.90,
-     "categoria": "mamae",
-     "imagem": "./imagens/novo-produto.jpg"
-   }
-   ```
-3. Salve o arquivo
-
-### Adicionar Novas Categorias
-
-1. Abra `data/categorias.json`
-2. Adicione uma nova categoria:
-   ```json
-   {
-     "id": 3,
-     "nome": "Para Aniversário",
-     "slug": "aniversario"
-   }
-   ```
-3. Use esse `slug` nos produtos
-
-### Modificar Estilos
-
-Edite `css/style.css` para personalizar cores, fontes e layout.
+- Adicionar categoria: editar `data/categorias.json` e, opcionalmente, criar `data/categorias/novo-slug.json` com os produtos.
+- Adicionar produto: abrir o JSON da categoria correspondente em `data/categorias/` e acrescentar um objeto ao array.
+- Imagens: coloque os arquivos em `imagens/` e use caminhos relativos nos JSONs.
 
 ---
 
-## 📱 Páginas da Aplicação
+## 🖼️ Páginas principais
 
-### `index.html` - Página Inicial
-- Banner promocional
-- Seção de categorias carregadas dinamicamente
-- Navegação principal
-
-### `produtos.html` - Catálogo de Produtos
-- Listagem de produtos por categoria
-- Botões para adicionar ao carrinho
-- Responsivo para todos os tamanhos de tela
+- `index.html`: página inicial com listagem/links para categorias
+- `produtos.html`: lista de produtos por categoria
+- `carrinho.html`: visualização do carrinho e finalização (front-end)
 
 ---
 
-## 💻 Tecnologias Utilizadas
+## 💻 Tecnologias
 
-- **HTML5** - Estrutura semântica
-- **CSS3** - Estilização responsiva
-- **JavaScript (Vanilla)** - Lógica da aplicação
-- **JSON** - Armazenamento de dados
-- **Fetch API** - Carregamento de dados
+- HTML5, CSS3, JavaScript (Vanilla)
+- Dados em JSON carregados via Fetch API
 
 ---
 
-## 🔄 Fluxo de Funcionamento
+## ⚠️ Observações
 
-```
-1. Página carrega → script.js faz fetch em categorias.json
-2. Categorias são exibidas como cards clicáveis
-3. Usuário clica em categoria → redireciona para produtos.html?categoria=xxx
-4. produtos.js carrega dados de produtos.json
-5. Produtos são filtrados pela categoria
-6. Usuário adiciona itens ao carrinho
-7. carrinho.js gerencia os itens do carrinho
-```
-
----
-
-## 📝 Notas Importantes
-
-- ⚠️ Assegure-se de usar um **servidor local** para evitar erros de CORS ao carregar JSONs
-- 📦 As imagens devem estar na pasta `imagens/` com o nome correto
-- 🔗 Os caminhos relativos devem corresponder exatamente aos valores em `produtos.json`
+- Recomenda-se usar servidor local para carregar JSONs sem bloqueios de CORS.
+- Verifique os caminhos das imagens nos JSONs (relativos à pasta onde os arquivos são servidos).
 
 ---
 
 ## 🤝 Contribuições
 
-Sugestões e melhorias são bem-vindas! Sinta-se livre para:
-- Reportar bugs
-- Sugerir novos recursos
-- Propor melhorias de código
+Abra uma issue ou envie um pull request com melhorias, correções ou novos produtos.
 
 ---
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para detalhes.
+Verifique o arquivo LICENSE para detalhes (MIT sugerida).
 
 ---
 
 ## 📞 Contato
 
-**Ingá Presentes**  
-Presentes especiais para pessoas especiais  
+Desenvolvido por Marcelo Bevilacqua de Andrade — Maio de 2026
 
-> Desenvolvido com ❤️ para oferecer os melhores presentes
-
----
-## 💻 Desenvolvido por : 
-Marcelo Bevilacqua de Andrade
-
-*Última atualização: Maio de 2026*
