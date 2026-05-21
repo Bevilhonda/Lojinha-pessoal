@@ -1,31 +1,46 @@
 [
   {
         "id": 1,
-        "nome": "Kit Especial Papai",
+        "nome": "Lacqua Afric de Channel - Frangançe woody fragrance",
         "preco": 179.90,
         "categoria": "papai",
-        "imagem": "./imagens/produto3.jpg"
+        "imagem": "./imagens/papai/Lacqua Afric de Channel - Frangançe woody.png"
     },
     {
         "id": 2,
-        "nome": "Kit Especial Papai",
+        "nome": "Bevilacqua For Men",
         "preco": 179.90,
         "categoria": "papai",
-        "imagem": "./imagens/produto3.jpg"
+        "imagem": "./imagens/papai/Bevilacqua For Men.png"
     },
     {
         "id": 3,
-        "nome": "Fragância Papai Moderno",
+        "nome": "Lacqua Black",
         "preco": 179.90,
         "categoria": "papai",
-        "imagem": "./imagens/produto3.jpg"
+        "imagem": "./imagens/papai/Lacqua Black.png"
     },
     {
         "id": 4,
-        "nome": "Perfume Papai Esportivo",
+        "nome": "Lacqua di Sun - For Adventures",
         "preco": 179.90,
         "categoria": "papai",
-        "imagem": "./imagens/produto3.jpg"
+        "imagem": "./imagens/papai/Lacqua di Sun - For Adventures.png"
+    },
+    {
+        "id": 5,
+        "nome": "Lacqua Homme",
+        "preco": 179.90,
+        "categoria": "papai",
+        "imagem": "./imagens/papai/Lacqua Homme.png"
+    },
+    {
+        "id": 6,
+        "nome": "Lacqua Secret Spirit",
+        "preco": 179.90,
+        "categoria": "papai",
+        "imagem": "./imagens/papai/Lacqua Secret Spirit.png"
     }
+
 
 ]
