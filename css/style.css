@@ -29,7 +29,7 @@ body{
 }
 
 .logo h1{
-    font-size: 42px;
+    font-size: 3em;
     color: lightgreen;
 }
 
@@ -179,7 +179,7 @@ body{
 .produtos-page h2{
     color: lightgreen;
     text-align: center;
-    font-size: 38px;
+    font-size: 50px;
     margin-bottom: 40px;
 }
 
@@ -405,7 +405,7 @@ body{
 
     padding: 20px;
 
-    font-size: 18px;
+    font-size: 35px;
 
     margin-top: 60px;
 }
