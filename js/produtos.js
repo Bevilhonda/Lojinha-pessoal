@@ -72,7 +72,23 @@ function adicionarCarrinho(produto){
             localStorage.getItem("carrinho")
         ) || [];
 
-    carrinho.push(produto);
+    const produtoExistente =
+        carrinho.find(item =>
+            item.id === produto.id
+        );
+
+    if(produtoExistente){
+
+        produtoExistente.quantidade++;
+
+    }else{
+
+        carrinho.push({
+            ...produto,
+            quantidade: 1
+        });
+
+    }
 
     localStorage.setItem(
         "carrinho",
@@ -80,6 +96,7 @@ function adicionarCarrinho(produto){
     );
 
     mostrarMensagemCarrinho();
+    atualizarContadorCarrinho();
 }
 
 function mostrarMensagemCarrinho(){
@@ -112,4 +129,35 @@ function mostrarMensagemCarrinho(){
 
 }
 
+function atualizarContadorCarrinho(){
+
+    const carrinho =
+        JSON.parse(
+            localStorage.getItem(
+                "carrinho"
+            )
+        ) || [];
+
+    const totalItens =
+        carrinho.reduce(
+            (total, item) =>
+                total + item.quantidade,
+            0
+        );
+
+    const contador =
+        document.getElementById(
+            "contador-carrinho"
+        );
+
+    if(contador){
+
+        contador.innerText =
+            `Carrinho (${totalItens})`;
+
+    }
+
+}
+
 carregarProdutos();
+atualizarContadorCarrinho();
