@@ -49,27 +49,27 @@ function carregarCarrinho(){
                 </p>
             </div>
 
-            <div>
+            <div class="item-carrinho-acoes">
 
-                <button
-                    onclick="diminuirQuantidade(${index})"
-                >
-                    -
-                </button>
+    <button
+        onclick="diminuirQuantidade(${index})"
+    >
+        −
+    </button>
 
-                <button
-                    onclick="aumentarQuantidade(${index})"
-                >
-                    +
-                </button>
+    <button
+        onclick="aumentarQuantidade(${index})"
+    >
+        +
+    </button>
 
-                <button
-                    onclick="removerItem(${index})"
-                >
-                    Remover
-                </button>
+    <button
+        onclick="removerItem(${index})"
+    >
+        Remover
+    </button>
 
-            </div>
+</div>
         `;
 
         container.appendChild(card);

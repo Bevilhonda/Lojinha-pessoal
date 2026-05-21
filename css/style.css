@@ -292,8 +292,8 @@ body{
 }
 
 .item-carrinho button{
-    width: 140px;
-    height: 50px;
+    min-width: 90px;
+    height: 45px;
 
     border: none;
     border-radius: 10px;
@@ -302,8 +302,27 @@ body{
 
     cursor: pointer;
 
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 16px;
+
+    transition: .2s;
+}
+
+.item-carrinho button:hover{
+    transform: scale(1.03);
+}
+.item-carrinho-acoes{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .carrinho-total{
