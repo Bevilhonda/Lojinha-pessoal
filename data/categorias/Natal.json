@@ -1,0 +1,31 @@
+[
+   {
+        "id": 1,
+        "nome": "Kit Presente Mulher",
+        "preco": 1959.90,
+        "categoria": "natal",
+        "imagem": "./imagens/Natal/kit mulher1.png"
+    },
+    {
+        "id": 2,
+        "nome": "Kit Presente Mulher Premium",
+        "preco": 2339.90,
+        "categoria": "natal",
+        "imagem": "./imagens/Natal/kit mulher3.png"
+    },
+    {
+        "id": 3,
+        "nome": "Kit Presente Homem",
+        "preco": 1959.90,
+        "categoria": "natal",
+        "imagem": "./imagens/Natal/kit homen1.png"
+    },
+    {
+        "id": 4,
+        "nome": "Kit Presente Homem Premium",
+        "preco": 2339.90,
+        "categoria": "natal",
+        "imagem": "./imagens/Natal/kit homen2.png"
+    }
+    
+]

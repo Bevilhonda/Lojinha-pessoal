@@ -2,43 +2,43 @@
 [
     {
         "id": 1,
-        "nome": "Kits Prontos",
-        "slug": "kits-prontos"
+        "nome": "Cestas",
+        "slug": "Cestas"
     },
 
     {
         "id": 2,
         "nome": "Para Mamãe" ,
-        "slug": "mamae"
+        "slug": "Mamãe"
     },
 
     {
         "id": 3,
         "nome": "Para Papai" ,
-        "slug": "papai"
+        "slug": "Papai"
     },
 
     {
         "id": 4,
         "nome": "Dia Namorados" ,
-        "slug": "namorados"
+        "slug": "Namorados"
     },
 
     {
         "id": 5,
-        "nome": "Presentes Aniversário " ,
-        "slug": "aniversario"
+        "nome": "Aniversário " ,
+        "slug": "Aniversario"
     },
     
     {
         "id": 6,
-        "nome": "Presentes Natal " ,
-        "slug": "natal"
+        "nome": "Natal " ,
+        "slug": "Natal"
     },
     
     {
         "id": 7,
         "nome": "Páscoa" ,
-        "slug": "pascoa"
+        "slug": "Páscoa"
     }
 ]
