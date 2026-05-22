@@ -1,37 +1,37 @@
 [
   {
         "id": 1,
-        "nome": "Kit Elegance Mamãe",
+        "nome": "Femme Soleil - Eau de toilette - Di Bevilacqua Parfum",
         "preco": 149.90,
         "categoria": "mamae",
-        "imagem": "./imagens/produto1.jpg"
+        "imagem": "./imagens/mamae/Femme Soleil.png"
     },
     {
         "id": 2,
-        "nome": "Perfume Importado Feminino",
+        "nome": "Belle Odeur - Eau de toilette - Di Bevilacqua Parfum",
         "preco": 199.90,
         "categoria": "mamae",
-        "imagem": "./imagens/produto2.jpg"
+        "imagem": "./imagens/mamae/Belle Odeur.png"
     },
     {
         "id": 10,
-        "nome": "Kit Relaxamento Mamãe",
+        "nome": "Reine Mère - Eau de Toilette - Di Bevilacqua Parfum",
         "preco": 129.90,
         "categoria": "mamae",
-        "imagem": "./imagens/produto10.jpg"
+        "imagem": "./imagens/mamae/Reine Mère.png"
     },
     {
         "id": 11,
-        "nome": "Kit Cuidado Pessoal Mamãe",
+        "nome": "Réveil de l'amour - Eau de Toilette - Di Bevilacqua Parfum",
         "preco": 159.90,
         "categoria": "mamae",
-        "imagem": "./imagens/produto11.jpg"
+        "imagem": "./imagens/mamae/Réveil de l'amour.png"
     },
     {
         "id": 12,
-        "nome": "Kit Beleza Natural Mamãe",
+        "nome": "Riche Tension - Eau de Parfum - Di Bevilacqua Parfum",
         "preco": 179.90,
         "categoria": "mamae",
-        "imagem": "./imagens/produto12.jpg"
+        "imagem": "./imagens/mamae/Riche Tension.png"
     }
 ]
