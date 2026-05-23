@@ -51,13 +51,29 @@ async function carregarProdutos(){
             </button>
         `;
 
+        card.addEventListener(
+    "click",
+    () => {
+
+        window.location.href =
+`produto.html?id=${produto.id}&categoria=${categoria.toLowerCase()}`;
+
+    }
+);
+
         const botao =
             card.querySelector("button");
 
         botao.addEventListener(
-            "click",
-            () => adicionarCarrinho(produto)
-        );
+    "click",
+    (event) => {
+
+        event.stopPropagation();
+
+        adicionarCarrinho(produto);
+
+    }
+);
 
         container.appendChild(card);
 
