@@ -4,42 +4,79 @@
         "nome": "Lacqua Afric de Channel - Frangançe woody fragrance - Di Bevilacqua Parfum",
         "preco": 1790.90,
         "categoria": "papai",
-        "imagem": "./imagens/papai/Lacqua Afric de Channel - Frangançe woody.png"
+        "imagem": "./imagens/papai/Lacqua Afric de Channel - Frangançe woody.png",
+        "descricao": "Fragrância amadeirada sofisticada para homens elegantes e modernos.",
+
+    "itens": [
+        "Perfume importado",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
     },
     {
         "id": 2,
         "nome": "Bevilacqua For Men - Di Bevilacqua Parfum",
         "preco": 1990.90,
         "categoria": "papai",
-        "imagem": "./imagens/papai/Bevilacqua For Men.png"
+        "imagem": "./imagens/papai/Bevilacqua For Men.png",
+        "descricao": "Fragrância masculina sofisticada para homens elegantes e modernos.",
+        "itens": [
+            "Perfume importado",
+            "Caixa presente",
+            "Embalagem premium"
+        ]
     },
     {
         "id": 3,
         "nome": "Lacqua Black - Di Bevilacqua Parfum",
         "preco": 1590.90,
         "categoria": "papai",
-        "imagem": "./imagens/papai/Lacqua Black.png"
+        "imagem": "./imagens/papai/Lacqua Black.png",
+        "descricao": "Fragrância suave sofisticada para homens elegantes e modernos.",
+        "itens": [
+            "Perfume importado",
+            "Caixa presente",
+            "Embalagem premium"
+        ]
     },
     {
         "id": 4,
         "nome": "Lacqua di Sun - For Adventures - Di Bevilacqua Parfum",
         "preco": 2370.90,
         "categoria": "papai",
-        "imagem": "./imagens/papai/Lacqua di Sun - For Adventures.png"
+        "imagem": "./imagens/papai/Lacqua di Sun - For Adventures.png",
+        "descricao": "Fragrância tropical para homens que adoram aventuras.",
+        "itens": [
+            "Perfume importado",
+            "Caixa presente",
+            "Embalagem premium"
+        ]
     },
     {
         "id": 5,
         "nome": "Lacqua Homme - Di Bevilacqua Parfum",
         "preco": 1490.90,
         "categoria": "papai",
-        "imagem": "./imagens/papai/Lacqua Homme.png"
+        "imagem": "./imagens/papai/Lacqua Homme.png",
+        "descricao": "Fragrância doce sofisticada para homens elegantes e modernos.",
+        "itens": [
+            "Perfume importado",
+            "Caixa presente",
+            "Embalagem premium"
+        ]
     },
     {
         "id": 6,
         "nome": "Lacqua Secret Spirit - Di Bevilacqua Parfum",
         "preco": 1890.90,
         "categoria": "papai",
-        "imagem": "./imagens/papai/Lacqua Secret Spirit.png"
+        "imagem": "./imagens/papai/Lacqua Secret Spirit.png",
+        "descricao": "Fragrância intensa sofisticada para homens elegantes e modernos.",
+        "itens": [
+            "Perfume importado",
+            "Caixa presente",
+            "Embalagem premium"
+        ]
     }
 
 
