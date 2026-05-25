@@ -4,27 +4,47 @@
         "nome": "Kit Presente Mulher",
         "preco": 1959.90,
         "categoria": "aniversario",
-        "imagem": "./imagens/Aniversario/kit mulher1.png"
+        "imagem": "./imagens/Aniversario/kit mulher1.png",
+        "itens": [
+        "Perfume importado,creme para mãos e rosto",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
     },
     {
         "id": 2,
         "nome": "Kit Presente Mulher Premium",
         "preco": 2339.90,
         "categoria": "aniversario",
-        "imagem": "./imagens/Aniversario/kit mulher3.png"
+        "imagem": "./imagens/Aniversario/kit mulher3.png",
+        "itens": [
+        "Perfume importado,2 cremes para mãos,pés,2 cremes para rosto.",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
     },
     {
         "id": 3,
         "nome": "Kit Presente Homem",
         "preco": 1959.90,
         "categoria": "aniversario",
-        "imagem": "./imagens/Aniversario/kit homen1.png"
+        "imagem": "./imagens/Aniversario/kit homen1.png",
+        "itens": [
+        "Perfume importado,creme para rosto.",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
     },
     {
         "id": 4,
         "nome": "Kit Presente Homem Premium",
         "preco": 2339.90,
         "categoria": "aniversario",
-        "imagem": "./imagens/Aniversario/kit homen2.png"
+        "imagem": "./imagens/Aniversario/kit homen2.png",
+        "itens": [
+        "Perfume importado,creme para barba e cabelo, loção pós barba,pente para barba,protetor solar para rosto.",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
     }
 ]
