@@ -4,28 +4,54 @@
         "nome": "Páscoa Homem ",
         "preco": 1119.90,
         "categoria": "pascoa",
-        "imagem": "./imagens/Pascoa/pascoa homen1.png"
+        "imagem": "./imagens/Pascoa/pascoa homen1.png",
+        "descricao": "Fragrância floral e suave para homens.",
+        "itens": [
+        "Perfume importado,creme para mãos e rosto,caixa de chocolate.",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
     },
     {
         "id": 2,
         "nome": "Páscoa Homem Premium",
         "preco": 1399.90,
         "categoria": "pascoa",
-        "imagem": "./imagens/Pascoa/pascoa homen2.png"
+        "imagem": "./imagens/Pascoa/pascoa homen2.png",
+        "descricao": "Fragrância doce suave para homens, caixa de chocolate 70% cacau Premium." ,
+      "itens": [
+        "Perfume importado,creme para mãos e rosto,caixa de chocolate 70% cacau Premium.",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
     },
     {
         "id": 3,
         "nome": "Páscoa Mulher",
         "preco": 1119.90,
         "categoria": "pascoa",
-        "imagem": "./imagens/Pascoa/pascoa mulher1.png"
+        "imagem": "./imagens/Pascoa/pascoa mulher1.png",
+        "descricao": "Fragrância floral e suave para mulheres.",
+        
+        "itens": [
+        "Perfume importado,creme para mãos e rosto,caixa de chocolate.",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
     },
     {
         "id": 4,
         "nome": "Páscoa Mulher Premium",
         "preco": 1399.90,
         "categoria": "pascoa",
-        "imagem": "./imagens/Pascoa/pascoa mulher2.png"
+        "imagem": "./imagens/Pascoa/pascoa mulher2.png",
+        "descricao": "Fragrância doce suave para mulheres, caixa de chocolate 70% cacau Premium." ,
+      "itens": [
+        "Perfume importado,creme para mãos e rosto,caixa de chocolate 70% cacau Premium.",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
+        
     }
 
 ]
