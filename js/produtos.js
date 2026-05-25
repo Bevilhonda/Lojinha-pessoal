@@ -35,21 +35,35 @@ async function carregarProdutos(){
         card.classList.add("produto-card");
 
         card.innerHTML = `
-            <img
-                src="${produto.imagem}"
-                alt="${produto.nome}"
-            >
+    <img
+        src="${produto.imagem}"
+        alt="${produto.nome}"
+    >
 
-            <h3>${produto.nome}</h3>
+    <h3>
+        ${produto.nome}
+    </h3>
 
-            <p>
-                R$ ${produto.preco.toFixed(2)}
-            </p>
+    <p>
+        R$ ${produto.preco.toFixed(2)}
+    </p>
 
-            <button>
-                Adicionar
-            </button>
-        `;
+    <div class="produto-acoes">
+
+        <button
+            class="btn-detalhes"
+        >
+            Ver detalhes
+        </button>
+
+        <button
+            class="btn-adicionar"
+        >
+            Adicionar
+        </button>
+
+    </div>
+`;
 
         card.addEventListener(
     "click",
@@ -61,19 +75,31 @@ async function carregarProdutos(){
     }
 );
 
-        const botao =
-            card.querySelector("button");
+        const botaoAdicionar =
+    card.querySelector(
+        ".btn-adicionar"
+    );
 
-        botao.addEventListener(
+botaoAdicionar.addEventListener(
     "click",
-    (event) => {
+    () => adicionarCarrinho(produto)
+);
 
-        event.stopPropagation();
+const botaoDetalhes =
+    card.querySelector(
+        ".btn-detalhes"
+    );
 
-        adicionarCarrinho(produto);
+botaoDetalhes.addEventListener(
+    "click",
+    () => {
+
+        window.location.href =
+        `produto.html?id=${produto.id}&categoria=${categoria}`;
 
     }
 );
+
 
         container.appendChild(card);
 
