@@ -5,6 +5,8 @@
         "preco": 1959.90,
         "categoria": "Cestas",
         "imagem": "./imagens/Kits/kit mulher1.png",
+        "descricao": "Fragrância floral e suave para mulheres.",
+        
         "itens": [
         "Perfume importado,creme para mãos e rosto,caixa chocolate.",
         "Caixa presente",
@@ -18,6 +20,7 @@
         "preco": 2359.90,
         "categoria": "Cestas",
         "imagem": "./imagens/Kits/kit mulher3.png",
+        "descricao": "Fragrância doce e amadeirada sofisticada para mulheres elegantes e modernas.",
         "itens": [
         "Perfume importado,creme para mãos e rosto,caixa chocolate Premium.",
         "Caixa presente",
@@ -31,6 +34,7 @@
         "preco": 1959.90,
         "categoria": "Cestas",
         "imagem": "./imagens/Kits/kit homen1.png",
+        "descricao": "Fragrância doce suave para homens.",
         "itens": [
         "Perfume importado,creme para rosto.",
         "Caixa presente",
@@ -44,6 +48,7 @@
         "preco": 2359.90,
         "categoria": "Cestas",
         "imagem": "./imagens/Kits/kit homen2.png",
+        "descricao": "Fragrância amadeirada sofisticada para homens elegantes e modernos.",
         "itens": [
         "Perfume importado,creme para barba e cabelo, loção pós barba,pente para barba,protetor solar para rosto.",
         "Caixa presente",

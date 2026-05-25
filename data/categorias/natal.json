@@ -4,28 +4,54 @@
         "nome": "Kit Presente Mulher",
         "preco": 1959.90,
         "categoria": "natal",
-        "imagem": "./imagens/Natal/kit mulher1.png"
+        "imagem": "./imagens/Natal/kit mulher1.png",
+        "descricao": "Fragrância floral e suave para mulheres.",
+        
+        "itens": [
+        "Perfume importado,creme para mãos e rosto,caixa chocolate.",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
     },
     {
         "id": 2,
         "nome": "Kit Presente Mulher Premium",
         "preco": 2339.90,
         "categoria": "natal",
-        "imagem": "./imagens/Natal/kit mulher3.png"
+        "imagem": "./imagens/Natal/kit mulher3.png",
+        "descricao": "Fragrância floral e suave para mulheres.",
+        
+        "itens": [
+        "Perfume importado,creme para mãos e rosto,caixa chocolate 80% cacau Premium.",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
     },
     {
         "id": 3,
         "nome": "Kit Presente Homem",
         "preco": 1959.90,
         "categoria": "natal",
-        "imagem": "./imagens/Natal/kit homen1.png"
+        "imagem": "./imagens/Natal/kit homen1.png",
+        "descricao": "Fragrância doce suave para homens." ,
+      "itens": [
+        "Perfume importado, loção para barba.",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
     },
     {
         "id": 4,
         "nome": "Kit Presente Homem Premium",
         "preco": 2339.90,
         "categoria": "natal",
-        "imagem": "./imagens/Natal/kit homen2.png"
+        "imagem": "./imagens/Natal/kit homen2.png",
+        "descricao": "Fragrância doce suave para homens." ,
+      "itens": [
+        "Perfume importado,loção para barba,hidratante pós barba.",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
     }
     
 ]

@@ -10,7 +10,7 @@
 =======
 >>>>>>> main
         "itens": [
-        "Perfume importado,creme para mãos e rosto",
+        "Perfume importado,creme para mãos e rosto,caixa de chocolate",
         "Caixa presente",
         "Embalagem premium"
     ]
@@ -26,7 +26,7 @@
 =======
 >>>>>>> main
         "itens": [
-        "Perfume importado,2 cremes para mãos,pés,2 cremes para rosto.",
+        "Perfume importado,2 cremes para mãos,pés,2 cremes para rosto, caixa de chocolate Premium.",
         "Caixa presente",
         "Embalagem premium"
     ]
@@ -50,7 +50,7 @@
         "categoria": "aniversario",
         "imagem": "./imagens/Aniversario/kit homen2.png",
         "itens": [
-        "Perfume importado,creme para barba e cabelo, loção pós barba,pente para barba,protetor solar para rosto.",
+        "Perfume importado,creme para barba e cabelo, loção pós barba,pente para barba,hidratente pós barba.",
         "Caixa presente",
         "Embalagem premium"
     ]
