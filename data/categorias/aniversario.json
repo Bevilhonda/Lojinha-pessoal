@@ -5,7 +5,10 @@
         "preco": 1959.90,
         "categoria": "aniversario",
         "imagem": "./imagens/Aniversario/kit mulher1.png",
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
         "itens": [
         "Perfume importado,creme para mãos e rosto",
         "Caixa presente",
@@ -18,7 +21,10 @@
         "preco": 2339.90,
         "categoria": "aniversario",
         "imagem": "./imagens/Aniversario/kit mulher3.png",
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
         "itens": [
         "Perfume importado,2 cremes para mãos,pés,2 cremes para rosto.",
         "Caixa presente",
