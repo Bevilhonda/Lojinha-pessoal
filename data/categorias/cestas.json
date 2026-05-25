@@ -4,7 +4,12 @@
         "nome": "Kit Presente Mulher",
         "preco": 1959.90,
         "categoria": "Cestas",
-        "imagem": "./imagens/Kits/kit mulher1.png"
+        "imagem": "./imagens/Kits/kit mulher1.png",
+        "itens": [
+        "Perfume importado,creme para mãos e rosto,caixa chocolate.",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
     },
 
     {
@@ -12,7 +17,12 @@
         "nome": "Kit Presente Mulher Premium",
         "preco": 2359.90,
         "categoria": "Cestas",
-        "imagem": "./imagens/Kits/kit mulher3.png"
+        "imagem": "./imagens/Kits/kit mulher3.png",
+        "itens": [
+        "Perfume importado,creme para mãos e rosto,caixa chocolate Premium.",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
     },
 
     {
@@ -20,7 +30,12 @@
         "nome": "Kit Presente Homem",
         "preco": 1959.90,
         "categoria": "Cestas",
-        "imagem": "./imagens/Kits/kit homen1.png"
+        "imagem": "./imagens/Kits/kit homen1.png",
+        "itens": [
+        "Perfume importado,creme para rosto.",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
     },
 
     {
@@ -28,6 +43,11 @@
         "nome": "Kit Presente Homem Premium",
         "preco": 2359.90,
         "categoria": "Cestas",
-        "imagem": "./imagens/Kits/kit homen2.png"
+        "imagem": "./imagens/Kits/kit homen2.png",
+        "itens": [
+        "Perfume importado,creme para barba e cabelo, loção pós barba,pente para barba,protetor solar para rosto.",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
     }
 ]

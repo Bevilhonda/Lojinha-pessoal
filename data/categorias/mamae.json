@@ -1,0 +1,62 @@
+[
+  {
+        "id": 1,
+        "nome": "Femme Soleil - Eau de toilette - Di Bevilacqua Parfum",
+        "preco": 1490.90,
+        "categoria": "mamae",
+        "imagem": "./imagens/mamae/Femme Soleil.png",
+        "itens": [
+        "Perfume importado",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
+    },
+    {
+        "id": 2,
+        "nome": "Belle Odeur - Eau de toilette - Di Bevilacqua Parfum",
+        "preco": 1990.90,
+        "categoria": "mamae",
+        "imagem": "./imagens/mamae/Belle Odeur.png",
+        "itens": [
+        "Perfume importado",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
+    },
+    {
+        "id": 10,
+        "nome": "Reine Mère - Eau de Toilette - Di Bevilacqua Parfum",
+        "preco": 1290.90,
+        "categoria": "mamae",
+        "imagem": "./imagens/mamae/Reine Mère.png",
+        "itens": [
+        "Perfume importado",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
+    },
+    {
+        "id": 11,
+        "nome": "Réveil de l'amour - Eau de Toilette - Di Bevilacqua Parfum",
+        "preco": 1590.90,
+        "categoria": "mamae",
+        "imagem": "./imagens/mamae/Réveil de l'amour.png",
+        "itens": [
+        "Perfume importado",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
+    },
+    {
+        "id": 12,
+        "nome": "Riche Tension - Eau de Parfum - Di Bevilacqua Parfum",
+        "preco": 1790.90,
+        "categoria": "mamae",
+        "imagem": "./imagens/mamae/Riche Tension.png",
+        "itens": [
+        "Perfume importado",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
+    }
+]
