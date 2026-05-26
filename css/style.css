@@ -52,7 +52,7 @@ body{
     opacity: .8;
 }
 
-/* BANNER */
+/* BANNER, texto com apresentação do site abaixo do cabeçalho */
 
 .banner{
     width: 100%;
@@ -72,7 +72,7 @@ body{
 }
 
 .banner-texto{
-    max-width: 700px;
+    max-width: 500px;
     text-align: center;
 }
 
@@ -90,29 +90,8 @@ body{
     margin-bottom: 30px;
 }
 
-.banner-texto button{
-    width: 240px;
-    height: 55px;
 
-    border: none;
-    border-radius: 10px;
-
-    background-color: #222;
-    color: lightgreen;
-
-    cursor: pointer;
-
-    font-size: 20px;
-    font-weight: bold;
-
-    transition: .3s;
-}
-
-.banner-texto button:hover{
-    transform: scale(1.03);
-}
-
-/* CATEGORIAS */
+/* CATEGORIAS / papai, mame. cestas etc */
 
 .categorias{
     padding: 60px 30px;
@@ -120,12 +99,6 @@ body{
     margin: 0 auto;
 }
 
-.categorias h2{
-    font-size: 36px;
-    margin-bottom: 30px;
-    color: lightgreen;
-    text-align: center;
-}
 
 .categorias-container{
     display: grid;
@@ -170,7 +143,7 @@ body{
     line-height: 1.4;
 }
 
-/* PRODUTOS */
+/*categoria/lista de PRODUTOS da categoria */
 
 .produtos-page{
     padding: 60px 30px;
@@ -354,7 +327,7 @@ body{
     cursor: pointer;
 }
 
-/* MENSAGEM CARRINHO */
+/* MENSAGEM CARRINHO, ao adicionar item surge uma mensagem confirmando */
 
 .mensagem-carrinho{
     position: fixed;
@@ -391,6 +364,8 @@ body{
         translate(-50%, -50%)
         scale(1);
 }
+
+/*categoria/produtos/ card do PRODUTO escolhido */
 
 .produto-page{
     padding: 60px 40px;
@@ -506,7 +481,7 @@ body{
     transform: scale(1.03);
 }
 
-/* RELACIONADOS */
+/* RELACIONADOS, mostra os outros produtos da mesma categoria escolhida */
 
 .relacionados{
     margin-top: 70px;
@@ -607,8 +582,6 @@ body{
 }
 
 
-
-/* MOBILE */
 /* MOBILE */
 @media (max-width: 768px){
 
