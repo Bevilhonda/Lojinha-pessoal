@@ -1,6 +1,6 @@
-# 🎁 Ingá Presentes
+# 🎁 Ingá Perfumes
 
-Presentes especiais para pessoas queridas — frontend estático do catálogo e carrinho.
+Perfumes especiais para pessoas queridas — frontend estático do catálogo e carrinho.
 
 ---
 
@@ -21,7 +21,7 @@ Projeto front-end em HTML/CSS/JS que exibe categorias e produtos a partir de arq
 ## 🗂️ Estrutura do Projeto (atual)
 
 ```
-Inga Presentes/
+Inga Perfumes/
 ├── index.html
 ├── produtos.html
 ├── carrinho.html
@@ -80,17 +80,24 @@ Exemplo de um arquivo em `data/categorias/mamae.json`:
 ```json
 [
   {
-    "id": 1,
-    "nome": "Kit Elegance Mamãe",
-    "preco": 149.90,
-    "imagem": "../imagens/produto1.jpg"
+     "id": 1,
+        "nome": "Femme Soleil - Eau de toilette - Di Bevilacqua Parfum",
+        "preco": 1490.90,
+        "categoria": "mamae",
+        "imagem": "./imagens/mamae/Femme Soleil.png",
+        "descricao": "Fragrância suave sofisticada para mulheres.",
+        "itens": [
+        "Perfume importado",
+        "Caixa presente",
+        "Embalagem premium"
+    ]
   }
 ]
 ```
 
 Observações:
 - Cada arquivo de categoria deve conter um array de produtos.
-- Campos comuns: `id`, `nome`, `preco`, `imagem`.
+- Campos comuns: `id`, `nome`, `preco`, `imagem`, `descricao`,`itens`.
 
 ---
 
