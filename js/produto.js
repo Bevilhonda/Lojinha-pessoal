@@ -135,7 +135,13 @@ relacionados.forEach(item => {
         </h3>
 
         <p>
-            R$ ${item.preco.toFixed(2)}
+            R$ ${produto.preco.toLocaleString(
+    "pt-BR",
+    {
+        style: "currency",
+        currency: "BRL"
+    }
+)}
         </p>
     `;
 
