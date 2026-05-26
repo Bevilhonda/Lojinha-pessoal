@@ -60,7 +60,13 @@ const response =
                 </h2>
 
                 <p class="produto-preco">
-                    R$ ${produto.preco.toFixed(2)}
+                    R$ ${produto.preco.toLocaleString(
+    "pt-BR",
+    {
+        style: "currency",
+        currency: "BRL"
+    }
+)}
                 </p>
 
                 <h3>

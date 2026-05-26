@@ -44,8 +44,19 @@ async function carregarProdutos(){
         ${produto.nome}
     </h3>
 
+<<<<<<< HEAD
     <p>
         R$ ${produto.preco.toFixed(2)}
+=======
+            <p>
+        ${produto.preco.toLocaleString(
+            "pt-BR",
+            {
+                style: "currency",
+                currency: "BRL"
+            }
+        )}
+>>>>>>> main
     </p>
 
     <div class="produto-acoes">
