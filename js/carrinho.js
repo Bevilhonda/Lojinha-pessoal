@@ -45,7 +45,13 @@ function carregarCarrinho(){
 
                 <p>
                     R$
-                    ${produto.preco.toFixed(2)}
+                    ${produto.preco.toLocaleString(
+    "pt-BR",
+    {
+        style: "currency",
+        currency: "BRL"
+    }
+)}
                 </p>
             </div>
 
@@ -77,7 +83,13 @@ function carregarCarrinho(){
     });
 
     totalElemento.innerText =
-        `Total: R$ ${total.toFixed(2)}`;
+`Total: ${total.toLocaleString(
+    "pt-BR",
+    {
+        style: "currency",
+        currency: "BRL"
+    }
+)}`;
 }
 
 function aumentarQuantidade(index){
