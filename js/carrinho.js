@@ -55,25 +55,33 @@ function carregarCarrinho(){
                 </p>
             </div>
 
-            <div class="item-carrinho-acoes">
+            <div class="item-carrinho-botoes">
 
-    <button
-        onclick="diminuirQuantidade(${index})"
-    >
-        −
-    </button>
+    <div class="item-carrinho-acoes">
 
-    <button
-        onclick="aumentarQuantidade(${index})"
-    >
-        +
-    </button>
+        <button
+            onclick="diminuirQuantidade(${index})"
+        >
+            -
+        </button>
 
-    <button
-        onclick="removerItem(${index})"
-    >
-        Remover
-    </button>
+        <button
+            onclick="aumentarQuantidade(${index})"
+        >
+            +
+        </button>
+
+    </div>
+
+    <div class="item-carrinho-acoes-excluir">
+
+        <button
+            onclick="removerItem(${index})"
+        >
+            Excluir
+        </button>
+
+    </div>
 
 </div>
         `;
@@ -153,6 +161,36 @@ function removerItem(index){
     carregarCarrinho();
 }
 
+function mostrarMensagemCarrinho(texto){
+
+    const mensagem =
+        document.createElement("div");
+
+    mensagem.classList.add(
+        "mensagem-carrinho"
+    );
+
+    mensagem.innerText = texto;
+
+    document.body.appendChild(
+        mensagem
+    );
+
+    setTimeout(() => {
+
+        mensagem.classList.add(
+            "mostrar"
+        );
+
+    }, 100);
+
+    setTimeout(() => {
+
+        mensagem.remove();
+
+    }, 2500);
+}
+
 function finalizarCompra(){
 
     const numeroWhatsApp =
@@ -167,12 +205,12 @@ function finalizarCompra(){
 
     if(carrinho.length === 0){
 
-        alert(
-            "Seu carrinho está vazio!"
-        );
+    mostrarMensagemCarrinho(
+        "Seu carrinho está vazio!"
+    );
 
-        return;
-    }
+    return;
+}
 
     let mensagem =
 `Olá! Quero finalizar minha compra 😊

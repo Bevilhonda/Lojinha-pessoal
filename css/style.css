@@ -267,9 +267,26 @@ body{
     font-weight: bold;
 }
 
-.item-carrinho button{
-    min-width: 90px;
-    height: 45px;
+.item-carrinho-botoes{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+/* CONTAINER DOS BOTÕES - E + */
+.item-carrinho-acoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: nowrap;
+}
+
+/* BOTÕES - E + */
+.item-carrinho-acoes button{
+    width: 60px;
+    height: 50px;
 
     border: none;
     border-radius: 10px;
@@ -278,27 +295,43 @@ body{
 
     cursor: pointer;
 
-    font-size: 16px;
+    font-size: 28px;
     font-weight: bold;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    padding: 0 16px;
+    transition: .2s;
+}
+
+/* BOTÃO EXCLUIR */
+.item-carrinho-acoes-excluir button{
+    min-width: 120px;
+    height: 50px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: lightcoral;
+
+    cursor: pointer;
+
+    font-size: 28px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 20px;
 
     transition: .2s;
 }
 
-.item-carrinho button:hover{
+.item-carrinho-acoes button:hover,
+.item-carrinho-acoes-excluir button:hover{
     transform: scale(1.03);
-}
-.item-carrinho-acoes{
-    display: flex;
-    gap: 12px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 .carrinho-total{
@@ -321,7 +354,7 @@ body{
     background: lightcoral;
     color: black;
 
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: bold;
 
     cursor: pointer;
