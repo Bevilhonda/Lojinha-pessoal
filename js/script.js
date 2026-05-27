@@ -1,3 +1,7 @@
+emailjs.init(
+    "qW4j-XQ2oeHDiH32q"
+);
+
 async function carregarCategorias(){
 
     const resposta = await fetch("./data/categorias.json");
@@ -57,7 +61,132 @@ function atualizarContadorCarrinho(){
     }
 
 }
+const formulario =
+    document.getElementById(
+        "form-contato"
+    );
+
+if(formulario){
+
+    formulario.addEventListener(
+        "submit",
+        function(event){
+
+            event.preventDefault();
+
+            const nome =
+    document.getElementById(
+        "nome"
+    ).value;
+
+const email =
+    document.getElementById(
+        "email"
+    ).value;
+
+const mensagem =
+    document.getElementById(
+        "mensagem"
+    ).value;
+
+/* VALIDAÇÃO NOME */
+if(nome.trim().length < 3){
+
+    mostrarMensagemContato(
+        "Digite um nome válido."
+    );
+
+    return;
+}
+
+/* VALIDAÇÃO EMAIL */
+const emailValido =
+/^[a-zA-Z0-9._%+-]+@(gmail|hotmail|outlook|yahoo|icloud)\.(com|com\.br)$/;
+
+if(!emailValido.test(email)){
+
+    mostrarMensagemContato(
+        "Digite um email válido."
+    );
+
+    return;
+}
+
+/* VALIDAÇÃO MENSAGEM */
+if(mensagem.trim().length < 10){
+
+    mostrarMensagemContato(
+        "Escreva uma mensagem maior."
+    );
+
+    return;
+}
+            emailjs.send(
+                "service_wqkgv2d",
+                "template_zr4zk7r",
+                {
+                    name: nome,
+                    email: email,
+                    message: mensagem
+                }
+            )
+            .then(() => {
+
+                mostrarMensagemContato(
+                    "Mensagem enviada com sucesso!"
+                );
+
+                formulario.reset();
+
+            })
+            .catch(() => {
+
+                mostrarMensagemContato(
+                    "Erro ao enviar mensagem."
+                );
+
+            });
+
+        }
+    );
+
+}
+
+function mostrarMensagemContato(texto){
+
+    const mensagem =
+        document.createElement(
+            "div"
+        );
+
+    mensagem.classList.add(
+        "mensagem-carrinho"
+    );
+
+    mensagem.innerText =
+        texto;
+
+    document.body.appendChild(
+        mensagem
+    );
+
+    setTimeout(() => {
+
+        mensagem.classList.add(
+            "mostrar"
+        );
+
+    }, 100);
+
+    setTimeout(() => {
+
+        mensagem.remove();
+
+    }, 2500);
+
+}
 
 atualizarContadorCarrinho();
 
 carregarCategorias();
+
