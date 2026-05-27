@@ -148,11 +148,13 @@ function adicionarCarrinho(produto){
         JSON.stringify(carrinho)
     );
 
-    mostrarMensagemCarrinho();
+    mostrarMensagemCarrinho(
+    "Adicionado ao carrinho"
+);
     atualizarContadorCarrinho();
 }
 
-function mostrarMensagemCarrinho(){
+function mostrarMensagemCarrinho(texto){
 
     const mensagem =
         document.createElement("div");
@@ -161,8 +163,7 @@ function mostrarMensagemCarrinho(){
         "mensagem-carrinho"
     );
 
-    mensagem.innerText =
-        "Adicionado ao carrinho";
+    mensagem.innerText = texto;
 
     document.body.appendChild(
         mensagem
@@ -170,7 +171,9 @@ function mostrarMensagemCarrinho(){
 
     setTimeout(() => {
 
-        mensagem.classList.add("mostrar");
+        mensagem.classList.add(
+            "mostrar"
+        );
 
     }, 100);
 
