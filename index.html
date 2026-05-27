@@ -1,73 +1,78 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Ingá Perfumes</title>
 
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <header class="header">
+      <div class="logo">
+        <h1>Ingá Perfumes</h1>
+      </div>
 
-        <div class="logo">
-            <h1>Ingá Perfumes</h1>
-        </div>
-
-        <nav class="menu">
-            <a href="#">Início</a>
-            <a href="#">Contato</a>
-            <a
-    href="./carrinho.html"
-    id="contador-carrinho"
->
-    Carrinho (0)
-</a>
-            
-        </nav>
-
+      <nav class="menu">
+        <a href="#">Início</a>
+        <a href="#fale-conosco"> Contato </a>
+        <a href="./carrinho.html" id="contador-carrinho"> Carrinho (0) </a>
+      </nav>
     </header>
 
     <main>
+      <section class="banner">
+        <div class="banner-texto">
+          <h2>Perfumes especiais para <strong>Pessoas Especiais</strong></h2>
 
-        <section class="banner">
+          <p>Perfumes importados e Kits Personalizados.</p>
+        </div>
+      </section>
 
-            <div class="banner-texto">
-                <h2>Perfumes especiais para <strong>Pessoas Especiais</strong></h2>
-
-                <p>
-                    Perfumes importados e Kits Personalizados.
-                </p>
-
-            </div>
-
-        </section>
-
-        <section class="categorias">
-
-        
-            <div class="categorias-container" id="categorias-container">
-
-            </div>
-
-        </section>
-
+      <section class="categorias">
+        <div class="categorias-container" id="categorias-container"></div>
+      </section>
     </main>
 
-   <footer class="footer">
-    <p>
-        &copy; 2026 Ingá Perfumes - Todos os direitos reservados.<br>
+    <section id="fale-conosco" class="fale-conosco">
+      <h2>Fale Conosco</h2>
+
+      <p>Tem alguma dúvida ou sugestão? Envie uma mensagem para nós.</p>
+
+      <form id="form-contato">
+        <input type="text" id="nome" placeholder="Seu nome" required />
+
+        <input type="email" id="email" placeholder="Seu email" required />
+
+        <textarea
+          id="mensagem"
+          placeholder="Digite sua mensagem"
+          rows="5"
+          required
+        ></textarea>
+
+        <button type="submit">Enviar Mensagem</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <p>
+        &copy; 2026 Ingá Perfumes - Todos os direitos reservados.<br />
         Desenvolvido por
-         <a href="https://portifolio-challenge-alura-2024.vercel.app/"
-          target="_blank" 
-          rel="noopener noreferrer">Marcelo Bevilacqua</a>
-    </p>
-</footer>
+        <a
+          href="https://portifolio-challenge-alura-2024.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Marcelo Bevilacqua</a
+        >
+      </p>
+    </footer>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
 
     <script src="./js/script.js"></script>
-
-</body>
+  </body>
 </html>

@@ -226,6 +226,76 @@ body{
     cursor: pointer;
 }
 
+/* campo FALE CONOSCO */
+
+.fale-conosco{
+    padding: 80px 20px;
+
+    max-width: 700px;
+
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.fale-conosco h2{
+    color: lightgreen;
+
+    font-size: 2rem;
+
+    margin-bottom: 15px;
+}
+
+.fale-conosco p{
+    margin-bottom: 30px;
+
+    font-size: 1.1rem;
+}
+
+#form-contato{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#form-contato input,
+#form-contato textarea{
+    width: 100%;
+
+    padding: 16px;
+
+    border: none;
+    border-radius: 12px;
+
+    font-size: 1rem;
+
+    background-color: white;
+}
+
+#form-contato textarea{
+    resize: none;
+}
+
+#form-contato button{
+    height: 55px;
+
+    border: none;
+    border-radius: 12px;
+
+    background-color: lightcoral;
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: .2s;
+}
+
+#form-contato button:hover{
+    transform: scale(1.02);
+}
+
 /* CARRINHO */
 
 .carrinho-page{
